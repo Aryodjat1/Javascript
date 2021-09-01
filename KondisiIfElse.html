@@ -3,9 +3,17 @@
         <title>Operasi Relational</title>
     </head>
     <script lang="Javascript">
+        var nilai = prompt("Nilai (0-100): ",0);
+        var hasil = "";
+
+        if (nilai >= 60) {
+            hasil = "Lulus";
+        } else {
+            hasil="Tidak Lulus";
+        }
         
+        document.write("Hasil: "+ hasil);    
     </script>
     <body>
-        <input type="button" name="button1" value="Relational" onclick="test()">
     </body>
 </html>
